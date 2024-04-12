@@ -20,4 +20,12 @@ public class CalcTest {
         int result = newCalc.subtract(6,4);
         assertEquals(2,newCalc.subtract(6,4));
     }
+
+    @Test
+    void testDivide()
+    {
+        newCalc = new Calculator();
+        float result = newCalc.divide(5,2);
+        assertEquals(2.5,newCalc.divide(5,2));
+    }
 }

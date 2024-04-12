@@ -10,4 +10,8 @@ public class Calculator {
         int result = firstNum - secondNum;
         return result;
     }
+    public float divide(int firstNum, int secondNum) {
+        float result = firstNum / (float)secondNum;
+        return result;
+    }
 }
