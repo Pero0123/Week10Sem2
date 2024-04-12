@@ -28,4 +28,12 @@ public class CalcTest {
         float result = newCalc.divide(5,2);
         assertEquals(2.5,newCalc.divide(5,2));
     }
+
+    @Test
+    void testMultiply()
+    {
+        newCalc = new Calculator();
+        int result = newCalc.multiply(6,2);
+        assertEquals(12,newCalc.multiply(6,2));
+    }
 }
