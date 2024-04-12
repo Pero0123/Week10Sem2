@@ -14,4 +14,9 @@ public class Calculator {
         float result = firstNum / (float)secondNum;
         return result;
     }
+
+    public int multiply(int firstNum, int secondNum) {
+        int result = firstNum * secondNum;
+        return result;
+    }
 }
